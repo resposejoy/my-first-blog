@@ -25,7 +25,7 @@ SECRET_KEY = '7xs6+h36a&48d6w3@loi%ckk22*p6invla2id5p$r3ct3d#pxo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['recepisp.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
@@ -51,7 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mysite.urls'
-
+# os.path.join(BASE_DIR, 'templates'),
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
